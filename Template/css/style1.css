@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b88045;
+    /* Mengganti warna latar belakang menjadi cokelat */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0px 10px;
+    border-right: 1px dotted #f9f9f9;
+    padding-right: 20px;
+}
+
+header nav ul li a {
+    color: #00FF00;
+    /* Mengganti warna tautan menjadi hijau */
+    text-decoration: underline;
+    /* Mengubah gaya teks menjadi garis bawah */
+}
+
+header nav ul li a:hover {
+    font-weight: bold;
+}
+
+section {
+    padding: 100px 0;
+    /* Menambah padding vertikal untuk section */
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.menu-item img {
+    max-width: 60%;
+    /* Mengubah lebar maksimum gambar menjadi 60% */
+    border-radius: 0;
+    /* Menghapus border radius untuk gambar */
+    border: 3px solid #d4d43d;
+    /* Menambahkan border berwarna kuning */
+}
+
+#hours {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#hours p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #000;
+    /* Mengganti warna latar belakang footer menjadi hitam */
+    color: #FFD700;
+    /* Mengganti warna teks footer menjadi emas */
+    text-align: center;
+    padding: 20px;
+    /* Menambah padding footer */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
